@@ -1,14 +1,14 @@
 
-#1. Description
+1. Description
 
 
-#2. Eclipse Code
+2. Eclipse Code
 
 
-#3. Jar files
+3. Jar files
 
 
-#4. Tools 
+4. Tools 
 
  For using this code, you need to install the following software tools:
  - TreeTagger : http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
