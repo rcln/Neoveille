@@ -7,6 +7,11 @@
    
    - TreeTaggerParserOfTexts.java : finds the pos-tags and lemma for French, Polish, Russian, Chinese and Portugese texts
 
+   - ParserOfTexts.java : it encodes the corpora in order to be compatible with IMS Corpus Bench, concatenates several                             text files and contains an abstract method, which is implemeted by ILSPParserOfTexts,
+                          MorphoDitaParserOfTexts and TreeTaggerParserOfTexts classes.
+
+   - Main.java :  
+
 2. Tools 
 
  For using this code, you need to install the following software tools:
