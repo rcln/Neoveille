@@ -13,6 +13,9 @@ Assignment1/Version2
                           MorphoDitaParserOfTexts and TreeTaggerParserOfTexts classes.
 
    - Main.java :  
+   
+   - Utils.java :
+   
 
 2. Tools 
 
