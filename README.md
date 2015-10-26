@@ -1,7 +1,7 @@
 
 1. Description
 
-   *ILSPParserOfTexts.java* :  finds the pos-tags and lemma for Greek texts
+   <s>*ILSPParserOfTexts.java* :  finds the pos-tags and lemma for Greek texts </s>
    *MorphoDitaParserOfTexts.java* : finds the pos-tags and lemma for Czech texts
    *TreeTaggerParserOfTexts.java* : finds the pos-tags and lemma for French, Polish, Russian, Chinese and Portugese texts
 
