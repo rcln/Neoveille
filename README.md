@@ -1,4 +1,6 @@
 
+Assignment1/Version2
+
 1. Description
 
    - ILSPParserOfTexts.java :  finds the pos-tags and lemma for Greek texts 
