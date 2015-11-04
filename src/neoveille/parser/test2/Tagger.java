@@ -14,7 +14,7 @@ public abstract class Tagger  {
 	}
 	
 	public void createEncodedData(String inputXMLverticalizedDir,String outputEncodedCorporaFile, String language) throws  InterruptedException, IOException{	
-		String current_directory = inputXMLverticalizedDir  + "/Concatenation/" + language + "/all.txt";
+		String current_directory = inputXMLverticalizedDir  + "/Concatenation/" + language + "/all.vrt";
 		String ch = "cwb-encode -d" + outputEncodedCorporaFile + "/" + language + " -f " + current_directory + " -R /usr/local/share/cwb/registry/example -P pos -P lemma -S s";  
         Process p = Runtime.getRuntime().exec(new String[]{"bash","-c",ch});
         p.waitFor();
