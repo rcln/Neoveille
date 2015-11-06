@@ -55,7 +55,11 @@ public class Utils{
 			/*European and Chinese punctuation*/
 			tokens = lastLine.split("\\s+");
 			if(tokens[0].equals(".") || tokens[0].equals("。") || tokens[0].equals("!") || tokens[0].equals("?") || tokens[0].equals("！") || tokens[0].equals("？"))
-				Utils.writeInFile(outputFile,"<\\s>\n");
+				Utils.writeInFile(outputFile,"</s>\n");
+			else{
+				Utils.writeInFile(outputFile,".\tSENT\t.\n");
+				Utils.writeInFile(outputFile,"</s>\n");
+			}
 			
 		}
 		
@@ -81,7 +85,7 @@ public class Utils{
 					isPunctuation = 1;
 				}else{
 					if(isPunctuation == 1){
-						Utils.writeInFile(current_directory,"<\\s>\n");	 
+						Utils.writeInFile(current_directory,"</s>\n");	 
 						Utils.writeInFile(current_directory,"<s>\n");
 					}
 					Utils.writeInFile(current_directory,line + "\n");
