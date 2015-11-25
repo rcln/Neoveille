@@ -2,11 +2,15 @@
 */src/neoveille/parser/test8
 
 Description
+
     - annotations for sentences
+    
     - annotations for lemma and pos-tags 
+    
     - encodes corpora in order to be compatible with IMS workbench corpus.
   	
 Tool
+
     - ILSP_NLP : http://nlp.ilsp.gr/ws/
 
 */src/neoveille/parser/test2
