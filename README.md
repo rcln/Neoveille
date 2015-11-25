@@ -1,5 +1,5 @@
 
-* /user/neoveille/parser/test8
+/user/neoveille/parser/test8
 
 Description
 
@@ -11,7 +11,7 @@ Tool
 
     - ILSP_NLP : http://nlp.ilsp.gr/ws/
 
-* /usr/neoveille/parser/test2
+/usr/neoveille/parser/test2
 
 Description
 
