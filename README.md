@@ -1,4 +1,4 @@
-Information for usr.neoveille.parser.test8:
+Information for src.neoveille.parser.test8:
 
 Description
 
@@ -11,7 +11,7 @@ Tool
  - ILSP_NLP : http://nlp.ilsp.gr/ws/
 
 
-Information for usr.neoveille.parser.test2 file: 
+Information for src.neoveille.parser.test2 file: 
 
 Description
 
