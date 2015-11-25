@@ -44,7 +44,7 @@ public class ILSPTagger extends Tagger{
 			str = "";
 			br1 = new BufferedReader(new FileReader(listOfFiles.get(i)));
 			while ((line = br1.readLine()) != null) {
-				str = line + "\n" + str;
+				str = str + "\n" + line;
 			}	
 			br1.close();
 			
