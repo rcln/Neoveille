@@ -143,7 +143,7 @@ public class Utils{
 					while((line2 = br2.readLine())!=null){
 						Utils.writeInFile(outputFileConcatenation,line2 + "\n");	
 					}
-					
+					br2.close();
 			 		Utils.writeInFile(outputFileConcatenation,"</text>\n");
 			 		
 			 		
